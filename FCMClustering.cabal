@@ -2,13 +2,13 @@ name:                FCMClustering
 version:             0.1.0.0
 -- synopsis:
 -- description:
-homepage:            https://github.com/githubuser/FCMClustering#readme
+homepage:            https://github.com/MickeyCantor/FCMClustering#readme
 license:             BSD3
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2017 Author name here
-category:            Web
+author:              Bradley Nowacki
+maintainer:          BradNowacki@gmail.com
+copyright:           2017 Brad Nowacki
+category:            AI
 build-type:          Simple
 extra-source-files:  README.md
 cabal-version:       >=1.10
@@ -17,14 +17,6 @@ library
   hs-source-dirs:      src
   exposed-modules:     Lib
   build-depends:       base >= 4.7 && < 5
-  default-language:    Haskell2010
-
-executable FCMClustering-exe
-  hs-source-dirs:      app
-  main-is:             Main.hs
-  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base
-                     , FCMClustering
   default-language:    Haskell2010
 
 test-suite FCMClustering-test
